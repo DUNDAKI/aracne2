@@ -1,0 +1,33 @@
+@media screen and (max-width: 780px) {
+
+  header .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botao{
+      height: 100%;
+      width: 100%;
+      margin: 5px;
+  }
+ 
+  
+  .carousel-filmes{
+      border: none;
+  }
+
+  .search{
+    display: none;
+  }
+
+  .rodape .tel{
+    margin-top: 40px;
+  }
+  
+}
+
+@media screen and (max-width: 576px) {
+ 
+}
+
+

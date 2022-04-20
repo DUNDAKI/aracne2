@@ -1,0 +1,118 @@
+:root {
+--vermelho: #e50914;
+--preta: #141414;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/* elementos bases */
+body {
+width: 100%;
+background: #00ff70;
+background-size: cover;    
+background-repeat: no-repeat;
+font-family: "Arial ", Times;
+
+} 
+
+/*menu principal*/ 
+
+.navbar{
+width: 100%;
+box-shadow:0px 2px 20px #07e93f;
+
+}
+
+.nav-item{
+margin-right: 25px;
+}
+.navbar-light .navbar-brand{
+color: #00ff70;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.dropdown-menu.show{
+margin-top: 6px;
+border: none;
+}
+
+.sair a{
+text-decoration: none;
+color: #000;
+}
+
+
+/*TELA PRINCIPAL*/
+.container .tela-principal{
+margin-top: 50px;
+}
+.container .coluna1 , .coluna2{
+padding-top: 44px;
+}
+.container .coluna1{
+    background: rgb(252, 249, 249);
+}
+.coluna2 p{
+font-size: 20px;
+}
+.container .coluna2{
+    background: #e50914;
+    text-align: center;
+}
+.btn-info{
+border-radius: 20px;
+font-size: 20px;
+}
+/*PAGINA QUEM SOMOS*/
+
+.fundo{
+border-radius: 10px  10px 0 0;
+margin: 20px;        
+margin-bottom: -10px;
+background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 100%);
+
+}
+.fundo h1{
+color: white;
+text-align: center;
+padding-top:  10px;
+}
+.btn-voltar{
+margin: 20px;
+
+}
+
+.coluna{
+margin: 10px;
+}
+
+.coluna p{
+margin-top: 30px;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 20px;
+border-radius: 10px;
+padding: 10px;
+background-color: #141414;
+font-size: 20px;
+color: #fff;
+}
+
+.coluna1 h2{
+color: white;
+}
+.coluna2 h2{
+color: white;
+}
+
+/*SIDEBAR LATERAL*/
+
+/**SUB-MENU**/
+
+
